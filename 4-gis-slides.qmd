@@ -1,6 +1,6 @@
 ---
 title: "Lesson 4: OSM Data & GIS operation"
-author: "Clémentine Cottineau, Ignacio Urria Yañez, Daniele Cannatella"
+author: "Clémentine Cottineau-Mugadza, Ignacio Urria Yañez"
 format: 
   revealjs:
     footer: "Geospatial Data Carpentry for Urbanism"
@@ -15,7 +15,7 @@ editor:
 
 By this point, you should be able to...
 
--   organise the workspace in `RStudio`
+-   organise your workspace in `RStudio`
 
 -   use the basic functions of `R`
 
@@ -370,9 +370,9 @@ visualise OSM vector data.
 
 In short:
 
--   Use the `Nominatim` and `OverPass` APIs within R
+-   Use the `OverPass` API within R
 
--   Use the `osmdata` packages to retrieve
+-   Use the `osmdata` package to retrieve
     geospatial data
 
 -   Select features and attributes among OSM tags
@@ -386,11 +386,10 @@ In short:
 ## Objectives:
 
 By the end of this session, you should be able to:  
-- Perform **geoprocessing operations** such as **union, join, and intersection**  
-- Create **buffers and centroids**  
+- Perform **geoprocessing operations** such as **union, join, and intersection** with dedicated functions from the sf package
 - Compute the **area** of spatial polygons  
-- Calculate **density** within spatial units  
-- **Map** the results  
+- Create **buffers and centroids**  
+- **Map** and save the results  
 
 
 ## the 'sf' cheatsheet 
