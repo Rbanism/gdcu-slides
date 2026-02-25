@@ -1,6 +1,6 @@
 ---
 title: "Lesson 4: OSM Data & GIS operation"
-author: "Clémentine Cottineau-Mugadza, Ignacio Urria Yañez"
+author: "Clémentine Cottineau-Mugadza, Ignacio Urria Yáñez"
 format: 
   revealjs:
     footer: "Geospatial Data Carpentry for Urbanism"
@@ -31,13 +31,13 @@ By this point, you should be able to...
 
 By the end of this lesson, you should be able to...
 
--   Import OpenStreetMap vector data using the `Nominatim` API
+-   Import OpenStreetMap (OSM) vector data using the API
 
--   Visualise OSM vector data in `R`
+-   Select and manipulate OSM vector data
 
--   Navigate package documentations to find the functions you need.
+-   Visualise and map OSM Vector data
 
--   Use the `Leaflet` package to create interactive maps
+-   Use `Leaflet` for interactive mapping
 
 ```{r}
 #| label: setup
@@ -324,6 +324,14 @@ extract_buildings("Brielle, NL")
 extract_buildings("Naarden, NL")
 ```
 
+## Going interactive
+
+- Leaflet is an ["open-source JavaScript library for mobile-friendly interactive maps”](https://leafletjs.com/).
+
+- Within R, there is a corresponding package called [Leaflet](https://rstudio.github.io/leaflet/).
+
+- As with `ggplot`, you build a leaflet map as a collection of layers: `leaflet(data) |> addTiles() |> addPolygons(~variable)`
+
 
 ## Challenge
 
@@ -373,7 +381,7 @@ visualise OSM vector data.
 
 In short:
 
--   Use the `OverPass` API within R
+-   Use the `Nominatim` and `OverPass` API within R
 
 -   Use the `osmdata` package to retrieve
     geospatial data
