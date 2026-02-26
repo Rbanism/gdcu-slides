@@ -45,9 +45,9 @@ TU Delft Library, Orange Room
 
 ![Paula](fig/paula.webp)
 
-![Soroush](fig/blank.webp)
+![Soroush](fig/soroush.png)
 
-![Yaying](fig/blank.webp)
+![Yaying](fig/yaying.png)
 
 ![Yehan](fig/yehan.png)
 

@@ -1,7 +1,6 @@
 ---
 title: "Data Carpentry for Geospatial Data with R"
-subtitle: "**Second pilot**"
-author: "Aleksandra Wilczynska, Ana Petrović, Ashley Cryan, Claudiu Forgaci, Clémentine Cottineau, Daniele Cannatella, Jérôme Francisco Conceicao, Kyri Janssen, Manuel Garcia Alvarez, Paula Martinez Lavanchy"
+author: "Ana Petrović, Claudiu Forgaci, Clémentine Cottineau, Daniele Cannatella, Ignacio Urria Yáñez, Javier San Millán Tejedor, Inès Zaid, Soroush Saffarzadeh, Yaying Hao, Yehan Wu"
 format: 
   revealjs:
     # footer: "Data Carpentry for Geospatial Data"
@@ -28,19 +27,19 @@ knitr::opts_chunk$set(
 ## What's next?
 
 - Workshop material and links to other resources will be shared via email
-- [R Café](https://delft-rcafe.github.io/home/Index.html) - Join the next session on June 20 dedicated to our workshop participants
-- Join the [Rbanism Scalable GIS challenge](https://github.com/Rbanism/scalegis-challenge) - deadline June 22
-- Join the Rbanism community launch on June 8
+- Have a look at the [Rbanism #30DayMapChallenge](https://github.com/Rbanism/30DayMapChallenge2025) we run yearly in November
+- [R Café](https://delft-rcafe.github.io/home/Index.html) - Thematic sessions for TUD-wide community of R users
 - [DCC](https://www.tudelft.nl/index.php?id=67120&L=1/) and the [TU Delft Library](https://www.tudelft.nl/en/library/research-data-management/r/training-events/training-for-researchers) - They are there to help
 
 :::: {.columns}
 
 :::{.column width=45%}
-- Give us feedback! ![](post-workshop-survey.png){.absolute top=340 left=240 width=200}
+- Give us feedback: ![](fig/post-workshop-survey.png){.absolute top=340 left=240 width=200}
 :::
 
 :::{.column}
-- Drinks! Join Rbanism: ![](rbanism-membership.png){.absolute top=340 left=760 width=200}
+- **Drinks!** 🎉 Join Rbanism: ![](fig/rbanism-membership.png){.absolute top=340 left=760 width=200}
 :::
 
 ::::
+

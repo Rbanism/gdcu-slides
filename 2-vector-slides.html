@@ -411,14 +411,56 @@ Claudiu Forgaci
 </table>
 </div>
 </section>
+<section id="raster-and-vector-representations" class="slide level2">
+<h2>Raster and vector representations</h2>
+
+<img data-src="fig/raster-vector-data-types.png" class="r-stretch quarto-figure-center"><p class="caption">Source: Saab, 2003</p></section>
 <section id="types-of-geospatial-data" class="slide level2">
 <h2>Types of geospatial data</h2>
 
 <img data-src="fig/raster-vector.jpg" class="r-stretch"></section>
-<section id="raster-and-vector-representations" class="slide level2">
-<h2>Raster and vector representations</h2>
-
-<img data-src="fig/raster-vector-data-types.png" class="r-stretch quarto-figure-center"><p class="caption">Source: Saab, 2003</p></section></section>
+<section id="challenge-crs" class="slide level2">
+<h2>Challenge: CRS</h2>
+<p>You want to investigate which European country has the largest urban area. Which CRS will you use?</p>
+<ol type="a">
+<li>EPSG:4326</li>
+<li>EPSG:28992</li>
+<li>EPSG:3035</li>
+</ol>
+<p>Hint: Go to https://epsg.io/ or https://epsg.org/search/by-name and check properties of the given CRS, such as datum, type of map projection, units of measure etc.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="countdown" id="timer_153ea372" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
+<code class="countdown-time"><span class="countdown-digits minutes">01</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+</div>
+</div>
+<div class="fragment">
+<p>Solution: <strong>c.&nbsp;EPSG:3035</strong></p>
+</div>
+</section>
+<section id="challenge-crs-1" class="slide level2">
+<h2>Challenge: CRS</h2>
+<p>You want to calculate the shortest path between two buildings in Delft. Which CRS will you use?</p>
+<ol type="a">
+<li>EPSG:4326</li>
+<li>EPSG:28992</li>
+<li>EPSG:3035</li>
+</ol>
+<p>Hint: Go to https://epsg.io/ or https://epsg.org/search/by-name and check properties of the given CRS, such as datum, type of map projection, units of measure etc.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="countdown" id="timer_49e990d6" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
+<code class="countdown-time"><span class="countdown-digits minutes">01</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+</div>
+</div>
+<div class="fragment">
+<p>Solution: <strong>b. EPSG:28992</strong></p>
+</div>
+</section></section>
 <section>
 <section id="geospatial-vector-data-in-r" class="title-slide slide level1 center">
 <h1>Geospatial Vector Data in R</h1>
@@ -461,7 +503,7 @@ Claudiu Forgaci
 </ol>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_9625b058" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_5f7ac3bb" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">03</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -500,7 +542,7 @@ Claudiu Forgaci
 <p>⁣&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A) location B) leisure C) osm_id</p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_2d0ffaa8" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_cb847a32" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">03</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -533,7 +575,7 @@ Claudiu Forgaci
 </ol>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_b7420a56" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_23b98dc9" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -572,7 +614,7 @@ Claudiu Forgaci
 </ul>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_cde9378c" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_00ec3187" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">03</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -604,7 +646,7 @@ Claudiu Forgaci
 </ul>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_de417bc7" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_39d4db05" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -635,7 +677,7 @@ Claudiu Forgaci
 </ul>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_fb98704e" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_40dd0214" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">03</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -670,7 +712,7 @@ Claudiu Forgaci
 </ul>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_a7e9ca97" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_b229e724" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -719,7 +761,7 @@ Claudiu Forgaci
 </ol>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_69eca2bc" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_2b5242fa" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">03</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>

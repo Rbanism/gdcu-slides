@@ -202,13 +202,62 @@ It can be expressed as:
 
 :::
 
+## Raster and vector representations 
+
+![Source: Saab, 2003](fig/raster-vector-data-types.png)
+
 ## Types of geospatial data
 
 ![](fig/raster-vector.jpg)
 
-## Raster and vector representations 
+## Challenge: CRS
 
-![Source: Saab, 2003](fig/raster-vector-data-types.png)
+You want to investigate which European country has the largest urban area. Which CRS will you use?
+
+::: {.nonincremental}
+
+a. EPSG:4326
+b. EPSG:28992
+c. EPSG:3035
+
+:::
+
+Hint: Go to https://epsg.io/ or https://epsg.org/search/by-name and check properties of the given CRS, such as datum, type of map projection, units of measure etc.
+
+``` {r}
+#| echo: false
+#| cache: false
+countdown::countdown(minutes = 1)
+``` 
+
+. . .
+
+Solution: **c. EPSG:3035**
+
+
+## Challenge: CRS
+
+You want to calculate the shortest path between two buildings in Delft. Which CRS will you use?
+
+::: {.nonincremental}
+
+a. EPSG:4326
+b. EPSG:28992
+c. EPSG:3035
+
+:::
+
+Hint: Go to https://epsg.io/ or https://epsg.org/search/by-name and check properties of the given CRS, such as datum, type of map projection, units of measure etc.
+
+``` {r}
+#| echo: false
+#| cache: false
+countdown::countdown(minutes = 1)
+``` 
+
+. . .
+
+Solution: **b. EPSG:28992**
 
 # Geospatial Vector Data in R
 
