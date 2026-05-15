@@ -176,3 +176,10 @@ If you believe someone is violating the [Code of Conduct](https://docs.carpentri
 :::
 
 :::
+
+
+# Competition 
+
+- Some questions will lead to a quizz to be answered as a **group**. Each group writes their answer down. 
+- Answers will be assessed simultaneously: right answers with lead to an amount of stars related to the difficulty of the question, for each group who has the answer right.
+- Groups accumulate stars until the end of the workshop, where the leading group gets an invaluable prize 🏆!

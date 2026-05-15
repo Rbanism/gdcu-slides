@@ -353,6 +353,11 @@ countdown::countdown(minutes = 20)
 
 ![](fig/leafletBrielle.png){fig-align="center"}
 
+## Sharing results
+
+![](fig/challengeZoom.png){fig-align="center"}
+
+
 ## One solution
 
 ```{r}
@@ -679,8 +684,13 @@ Can you map the density of old buildings per 10m fused buffer?
 countdown::countdown(minutes = 10)
 ```
 
-## One solution
 
+
+## Sharing results
+
+![](fig/challengeZoom.png){fig-align="center"}
+
+## One solution
 
 
 ```{r intersection_viz}
