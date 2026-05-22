@@ -3,6 +3,7 @@ date: "19 February 2024"
 format: 
   revealjs:
     theme: [default, custom.scss]
+    incremental: true
 ---
 
 
@@ -99,6 +100,29 @@ TU Delft Library, Blue Room
 
 - 🚫 "How to conduct statistical analysis combing geo information"
 - 🚫 "data scraping methods"
+
+:::
+
+## The 3 WHYs of Rbanism
+
+* **Automation**: Save time and reduce errors with scripts, so that you can focus on your coreskills and knowledge
+* **Reproducibility**: Adopt transparent urban analytical practices to enable accountability, sharing and knowledge transfer.
+* **Scalability**: Leverage large datasets and computation for cross-case analyses of regions, cities and neighbourhoods.
+
+## Showcase: [Title]
+<!-- Make copies of this slide for more showcases -->
+
+![Map produced in a cool project]()
+
+## What we will produce
+
+::: {layout-ncol=3}
+
+![](https://carpentries-incubator.github.io/r-geospatial-urban/fig/08-plot-multiple-shape-files-rendered-plot-multiple-1.png)
+
+![](fig/tudlib-green.png)
+
+![](fig/ConservationBrielle.png)
 
 :::
 
