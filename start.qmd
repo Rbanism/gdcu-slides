@@ -116,9 +116,17 @@ TU Delft Library, Blue Room
 
 ## What we will produce
 
-::: {layout-ncol=3}
+::: {layout-ncol=2}
+
+![](https://carpentries-incubator.github.io/r-geospatial-urban/fig/04-intro-to-visualisation-rendered-ggplot-titles-1.png)
 
 ![](https://carpentries-incubator.github.io/r-geospatial-urban/fig/08-plot-multiple-shape-files-rendered-plot-multiple-1.png)
+:::
+
+## What we will produce
+
+::: {layout-ncol=2}
+
 
 ![](fig/tudlib-green.png)
 
