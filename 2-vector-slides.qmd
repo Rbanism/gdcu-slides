@@ -210,6 +210,22 @@ It can be expressed as:
 
 ![](fig/raster-vector.jpg)
 
+## Types of geospatial data
+
+![Image by Daniele Cannatella](fig/vector-raster-1.png)
+
+## Types of geospatial data - Points
+
+![Amenities in Amsterdam, P. Bernardini, C. Forgaci, 2024](fig/points.png)
+
+## Types of geospatial data - Lines
+
+![Streets in Bucharest, P. Bernardini, C. Forgaci, 2024](fig/lines.png)
+
+## Types of geospatial data - Polygons
+
+![Social Housing in Amsterdam, J. San Millan, 2024](fig/polygons.png)
+
 ## Challenge: CRS
 
 You want to investigate which European country has the largest urban area. Which CRS will you use?
