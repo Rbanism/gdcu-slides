@@ -55,6 +55,32 @@ DTM_hill_TUD_df <- as.data.frame(DTM_hill_TUD, xy = TRUE)
 
 # Intro to raster data
 
+## Types of geospatial data
+
+![Image by Daniele Cannatella](fig/vector-raster-1.png)
+
+## Types of raster data - Continuous
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![DEM of Mt. Everest Region (source: Wikipedia, 2025)](fig/elevation.png){width=100%}
+
+:::
+
+::: {.column width="50%"}
+
+![Temperature map of London (source: -)](fig/temperature.png){width=100%}
+
+:::
+
+::::
+
+## Types of raster data - Discrete
+
+![land use in the Netherlands, 2015 (Source: CBS)](fig/categorical.png)
+
 ## The `terra` package
 
 ![A plot showing the green band of an RGB aerial image of the TU Delft library](fig/tudlib-green.png){fig-align="center"}
