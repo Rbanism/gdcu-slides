@@ -1,6 +1,8 @@
 ---
 title: "Introduction to R"
-format: revealjs
+format:
+  revealjs:
+    incremental: true  
 editor: visual
 Author: Kyri Janssen
 ---
@@ -87,3 +89,16 @@ Besides vectors you will also come across:
 Combine the abcd_vector with the numeric_vector
 
 What is the data type of this new vector, and why?
+
+## Homework {.smaller}
+
+Read the script you wrote on Day 1 and carry out the following assignments:
+
+1. Add comments to the code so that you remember what you did.
+
+2. Go to [LINK TO Q&A DOCUMENT] and
+
+  * ask at least one question about Day 1;
+  * try to answer a question asked by someone else.
+
+3. Write a script that uses all functions from the cheatsheet. Feel free to reuse and recombine parts of the script from class and to use the same dataset.

@@ -238,3 +238,20 @@ ggplot() +
   ) +
   coord_equal()
 ```
+
+## Homework {.smaller}
+
+Read the script you wrote on Day 2 and carry out the following assignments:
+
+1. Add comments to the code so that you remember what you did.
+
+2. Go to [LINK TO Q&A DOCUMENT] and
+
+  * ask at least one question about Day 2;
+  * try to answer a question asked by someone else.
+
+3. Write a script that uses all functions from the cheatsheet. Feel free to reuse and recombine parts of the script from class and to use the same dataset.
+
+4. Carry out the following challenges:
+
+  * [LINKS TO CHALLENGES EXCLUDED FROM LESSONS 2 AND 3]
