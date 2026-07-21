@@ -66,24 +66,6 @@ Photo by <a href="https://unsplash.com/@dtropinin?utm_content=creditCopyText&utm
 </div>
 ::::
 
-## Example projects using R
-
-::: fragment
--   **Economic inequality and economic segregation:** **a systematic review of causal pathways**
-
-    ![Cottineau-Mugadza, 2025.](fig/SocialForces.png){width="339"}
-
-    A project focused on statistical analysis of socio-economic dynamics using R represented as a companion notebook based on the article by *C. Cottineau-Mugadza (2025)* within European Research Council (ERC) project Urban Economic SEGregation (SEGUE).
-
--   **rcrisp:** **Automate the morphological delineation of riverside urban areas**
-
-    An R package developed for analyzing the spatial composition of the built environment neighboring the water bodies within the urban environment.
-
-    ![](fig/CRiSp-profile-image.png){width="225"} ![](fig/Figure_3_rcrisp.jpg){width="226"}
-
--   
-:::
-
 ## What will you (not) learn?
 
 ::: fragment
