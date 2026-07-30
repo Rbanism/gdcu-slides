@@ -71,7 +71,7 @@ Photo by <a href="https://unsplash.com/@dtropinin?utm_content=creditCopyText&utm
 ::: fragment
 -   **Economic inequality and economic segregation:** **a systematic review of causal pathways**
 
-    ![Cottineau-Mugadza, 2025.](fig/SocialForces.png){alt="Cottineau-Mugadza, 2025." fig-align="center" width="339"}
+    ![Cottineau-Mugadza, 2025.](fig/SocialForces.png){fig-align="center" width="339"}
 
     A project focused on statistical analysis of socio-economic dynamics using R represented as a companion notebook based on the article by *C. Cottineau-Mugadza (2025)* within European Research Council (ERC) project Urban Economic SEGregation (SEGUE).
 
@@ -81,7 +81,11 @@ Photo by <a href="https://unsplash.com/@dtropinin?utm_content=creditCopyText&utm
 
     ![](fig/CRiSp-profile-image.png){width="225"} ![](fig/Figure_3_rcrisp.jpg){width="226"}
 
--   
+-   **EU Interreg project ReBioClim**
+
+    ReBioClim (Restoring urban streams for biodiversity, climate adaptation, and quality of Life in cities) is an interactive web application that was developed using R Shiny to compare cases and analyse synergies and conflicts among the pilot streams.
+
+    ![](fig/shiny_app_r.png){width="476"}
 :::
 
 ## What will you (not) learn?
